@@ -1,0 +1,179 @@
+<html>
+  <head>
+    <meta charset="UTF-8">
+    <meta name="author" content="Priyanka Patange">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Menu Display page</title>
+      <link href="https://fonts.googleapis.com/css?family=Mukta Vaani" type="text/css" rel="stylesheet">
+      <link rel="stylesheet" type="text/css" href="style.css">
+  </head>
+  <body>
+      <div class="row header">
+      <!--Title-->
+      <img  src="http://logok.org/wp-content/uploads/2014/06/McDonalds-logo.png" alt="Mcdlogo" width="200px" height="160px" align="left">
+      <img src="http://logok.org/wp-content/uploads/2014/06/McDonalds-logo.png" alt="Mcdlogo" width="200px" height="160px" align="right">
+      <h1> McDonalds Report</h1>
+      </div>
+
+      <!-- Let's see the chart here-->
+      <div id="LineChartPlaceHolder"></div>
+
+      <!-- External imports begin -->
+      <script src = "https://code.highcharts.com/highcharts.js"></script>
+      <!-- External imports end -->
+
+      <!-- Internal imports begin -->
+      <script src="daily_line.js"></script>
+      <!-- Internal imports end -->
+      
+      <p class="paras">From the above line chart, we can see that on average, we don't see any peak within the week. 
+        Therefore, in the later impact season, at least from this specific month, we can't really sure which day we should promote our advertisement. 
+        Another important thing is that we can acknowledge that sales of hamburgers is significantly higher than chicken fillet and fish fillet. This trend
+        shows that costumers generally choose burgers as their main food at McDonalds. Later on, we should further explore wether the Impossible Burger has an
+        impact on burgers.
+      </p>
+
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
+      <!-- Let's see the chart here-->
+      <div id="BarChartPlaceHolder"></div>
+
+      <!-- External Imports begin -->
+      <script src = "https://code.highcharts.com/highcharts.js"></script>
+      <!-- External imports end -->
+
+      <!-- Internal imports begin -->
+      <script src = "daily_bar.js"></script>
+      <!-- External imports end -->
+
+      <p class="paras">From the above bar plot we surprisingly see that, within one specific month, across all five regions, the combined sales of all three 
+        products are almost the same! This finding suggests that the influence of McDonalds is eqaully distributed across the country, which is great to hear. 
+        In addition, we see customers don't prefer a specific day to go to McDonalds since the data across the week is also very similar.
+      </p>
+
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
+      <!-- Let's see the chart here-->
+            <div id="PieChartHolder"></div>
+
+      <!-- External imports begin -->
+      <script src = "https://code.highcharts.com/highcharts.js"></script>
+      <!-- External imports end -->
+
+      <!-- Internal imports begin -->
+      <script src="piechart.js"></script>
+      <!-- Internal imports end -->
+
+      <p class="paras">From this bar chart, after aggregating three different products together, we can perceive that on average, each day's sale in proportion 
+        to the entire week is almost the same. Therefore, we could say that at least based on the limited data from the single month, we can not make the 
+        naive assumption that weekends' sales will be higher than the ones on weekdays. Different from the bar chart, this pie chart can further provides us the
+        detail of each day&#39s sales. </p>
+
+      <br>
+      <br>
+      <hr>  
+      <br>
+      <br>
+      <!-- Let's see the chart here-->
+      <div id="BarChartThreePlaceHolder"></div>
+
+      <!-- External imports begin -->
+      <script src = "https://code.highcharts.com/highcharts.js"></script>
+      <!-- External imports end -->
+
+      <!-- Internal imports begin -->
+      <script src="total_sales_bar.js"></script>
+      <!-- Internal imports end -->
+
+      <p class="paras">Now we turn to the macro trend and aggregate the sales of all three products by regions. We can easily figure out that the profit we get 
+          from burgers is far more than either chicken fillet or fish fillet. Indeed, the combined profit of both fish fillet and chicken fillet is still less than
+          that of burgers. Therefore, we could conclude that from year 2016 to year 2019, hamburgers is at least one of the most popular products sold by McDonald.
+          Across all five regions, the sales of burgers is way more popular. As a result, burgers is a popular product across the whole nation.</p>
+
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
+      <!-- Let's see the chart here-->
+      <div id="LineChartTwoPlaceHolder"></div>
+
+      <!-- External imports begin -->
+      <script src = "https://code.highcharts.com/highcharts.js"></script>
+      <!-- External imports end -->
+
+      <!-- Internal imports begin -->
+      <script src="month_line.js"></script>
+      <!-- Internal imports end -->
+
+      <p class="paras">According to the line chart, we see that from year 2016 to the present, the sales of all three products are gradually but surely increasing,
+        which is a good thing. However, if we look closely, around September 2018, there is a significant sharp decrease in the sales of hamburgers. If we look at 
+        the news, it is not hard for us to realize that it is because of the introduction of Burger King's Impossible Burger. Overall, there is an increase in all
+        three products. Later on, we will further analyze the affect on burgers in the following graphs.
+      </p>
+
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
+       <!-- Let's see the chart here-->
+       <div id="LineChartThreePlaceHolder"></div>
+
+       <!-- External imports begin -->
+       <script src = "https://code.highcharts.com/highcharts.js"></script>
+       <!-- External imports end -->
+ 
+       <!-- Internal imports begin -->
+       <script src="regions_monthly_linechart.js"></script>
+       <!-- Internal imports end -->
+
+       <p class="paras">The affect is pretty big; however, compared to burgers, we actually don't quite see a big decrease in chicken fillet or fish fillet. In addition 
+         to the previous graph, which we see that the impact on burgers is the biggest. Now, we seperate them into five regions, and we see that every region is eqaully 
+         affected by the Impossible Burger. And we can also observe that the sales of burgers, even after another entire year, the sales of burgers still haven't equalized
+         that before the impact. <span>Therefore, I would kindly suggest that McDonalds should introduce some new product such as Incredible Chicken Fillet or Perfect Fish 
+         Fillet to counter the deficit of the sales of burgers.</span> </p>
+
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
+       <!-- Let's see the chart here-->
+       <div id="BarChartTwoPlaceHolder"></div>
+
+       <!-- External imports begin -->
+       <script src = "https://code.highcharts.com/highcharts.js"></script>
+       <!-- External imports end -->
+ 
+       <!-- Internal imports begin -->
+       <script src="sep_oct_month_bar.js"></script>
+       <!-- Internal imports end -->
+
+       <p class="paras"> We further delve into the hamburger analysis and can figure that the sharp decease indeed happens around September and October 2018. 
+         Across all five regions, we see very similar patterns. Moreover, it seems like that the decrease in SouthWest is the most, but the difference is not that
+         much. The reason could be that customers are curious about the new Impossible burgers so they want to try it out. 
+       </p>
+
+        <br>
+        <br>
+        <hr>
+        <h2>Conclusions: </h2>
+        <ul>
+          <li>From the micro data, we conclude that there is in fact no significant difference in sales of the products acoss different days of a week.</li>
+          <li>The introduction of the Impossible Burger does have a major impact on all the regions of the United States.</li>
+          <li>Compared to the impacts on chicken fillet and fish fillet, that of hamburgers is the most visible.</li>
+          <li>In order to decrease the effect, McDonalds could consider its own premium type of chicken fillet or fish fillet to take the advantage of the market.</li>
+        </ul>  
+
+ </body> 
+   
+</html>
+
+  
