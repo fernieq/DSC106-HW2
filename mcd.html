@@ -26,11 +26,12 @@
       <script src="daily_line.js"></script>
       <!-- Internal imports end -->
       
-      <p class="paras">From the above line chart, we can see that on average, we don't see any peak within the week. 
-        Therefore, in the later impact season, at least from this specific month, we can't really sure which day we should promote our advertisement. 
+      <p class="paras">From the above line chart, we can see that on average, we barely see big peaks within the week. 
+        Therefore, in the later impact season, at least from this specific month, we can't really besure which day we should promote our advertisement. 
         Another important thing is that we can acknowledge that sales of hamburgers is significantly higher than chicken fillet and fish fillet. This trend
         shows that costumers generally choose burgers as their main food at McDonalds. Later on, we should further explore wether the Impossible Burger has an
-        impact on burgers.
+        impact on burgers. However, one interesting thing we see, at least from this specific month is that we see a little increase in the sales of fish fillets 
+        on Fridays. Then the sales go down on the weekends. Therefore, we should further analyze wether this pattern happens across all the regions.
       </p>
 
       <br>
@@ -38,6 +39,28 @@
       <hr>
       <br>
       <br>
+
+      <!-- Let's see the chart here-->
+      <div id="LineChartFourPlaceHolder"></div>
+
+      <!-- External Imports begin -->
+      <script src = "https://code.highcharts.com/highcharts.js"></script>
+      <!-- External imports end -->
+
+      <!-- Internal imports begin -->
+      <script src = "daily_fish_fillet.js"></script>
+      <!-- External imports end -->
+      
+      <p class="paras">After seprating the sales of fish fillet into five different regions, we see that except NorthEast, all other four regions have a peak on
+        Fridays. Therefore, we should increase the number of fish fillets products on Fridays in those regions. In NorthEast, since we see a peak on Thursdays, 
+      maybe we should increase the number of fish fillet products on day specific day.</p>
+
+      <br>
+      <br>
+      <hr>
+      <br>
+      <br>
+
       <!-- Let's see the chart here-->
       <div id="BarChartPlaceHolder"></div>
 
@@ -51,7 +74,7 @@
 
       <p class="paras">From the above bar plot we surprisingly see that, within one specific month, across all five regions, the combined sales of all three 
         products are almost the same! This finding suggests that the influence of McDonalds is eqaully distributed across the country, which is great to hear. 
-        In addition, we see customers don't prefer a specific day to go to McDonalds since the data across the week is also very similar.
+        In addition, we could say that overall customers don't prefer a specific day to go to McDonalds since the data across the week is also very similar.
       </p>
 
       <br>
@@ -70,10 +93,10 @@
       <script src="piechart.js"></script>
       <!-- Internal imports end -->
 
-      <p class="paras">From this bar chart, after aggregating three different products together, we can perceive that on average, each day's sale in proportion 
+      <p class="paras">From this pie chart, after aggregating three different products together, we can perceive that on average, each day's sale in proportion 
         to the entire week is almost the same. Therefore, we could say that at least based on the limited data from the single month, we can not make the 
         naive assumption that weekends' sales will be higher than the ones on weekdays. Different from the bar chart, this pie chart can further provides us the
-        detail of each day&#39s sales. </p>
+        detail of each day&#39s sales proportional to the whole week's sale.</p>
 
       <br>
       <br>
@@ -166,7 +189,8 @@
         <hr>
         <h2>Conclusions: </h2>
         <ul>
-          <li>From the micro data, we conclude that there is in fact no significant difference in sales of the products acoss different days of a week.</li>
+          <li>From the micro data, we could encourage McDonalds to increase the sales of fish fillet products on Thursdays and Friday in specific regions.</li>
+          <li>Also from the micro data, we conclude that there is in fact no significant difference in sales of the products acoss different days of a week.</li>
           <li>The introduction of the Impossible Burger does have a major impact on all the regions of the United States.</li>
           <li>Compared to the impacts on chicken fillet and fish fillet, that of hamburgers is the most visible.</li>
           <li>In order to decrease the effect, McDonalds could consider its own premium type of chicken fillet or fish fillet to take the advantage of the market.</li>

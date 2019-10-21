@@ -1,28 +1,40 @@
 //data of the line chart
 var series = [
     {
-       name: 'HM-total',
-       data: [181368.5 , 180341.75, 181304.75, 179467.25, 181921.  , 180366.4 ,
-        179456.4 ],
-       color:'#FFC72C'
+       name: 'FF-NE',
+       data: [ 9284.25,  9576.5 ,  9513.75, 11797.5 ,  7634.2 ,  7400.2 ,
+        9875.6 ],
+       color:'#0288D1'
     }, 
     {
-       name: 'CF-total',
-       data: [77043.75, 75525.25, 76449.25, 75905.  , 75899.2 , 73860.6 ,
-        76835.8 ],
-       color:'#DA291C' 
+       name: 'FF-SW',
+       data: [ 9241.25,  8891.5 ,  9503.5 ,  9390.75, 10821.  ,  7992.8 ,
+        7792.8 ],
+       color:'#F06292' 
     }, 
     {
-       name: 'FF-total',
-       data: [44751.5 , 44156.25, 46205.5 , 48357.5 , 52766.8 , 40106.4 ,
-        40282.2 ],
+       name: 'FF-NW',
+       data: [ 8649.75,  8787.75,  9328.75,  9273.75, 10405.6 ,  8536.6 ,
+        7806.6 ],
        color:'#27251F'
-    }
+    },
+    {
+        name: 'FF-SE',
+        data: [ 8712.75,  8402.5 ,  8867.5 ,  8802.25, 11769.4 ,  7831.4 ,
+            7322.8 ],
+        color:'#DA291C'
+     },
+     {
+        name: 'FF-C',
+        data: [ 8863.5 ,  8498.  ,  8992.  ,  9093.25, 12136.6 ,  8345.4 ,
+            7484.4 ],
+        color: '#FFC72C'
+     }
  ];
 
  // Configuration about the plot
  var title = {
-    text: 'Average Sales of MCD\'s Three Items by Day'     
+    text: 'Average Sales of MCD\'s Fish Fillet by Day'     
  };
  var xAxis = {
     categories: ['Monday', 'Tuesday', 'Wednesday', 'Thursday', 'Friday', 'Saturday', 'Sunday']
@@ -57,5 +69,5 @@ json.legend = legend;
 json.series = series;
 
 // We need to couple the chart data structure with the chartPlaceHolder div
-var someVar = document.getElementById("LineChartPlaceHolder");
+var someVar = document.getElementById("LineChartFourPlaceHolder");
 Highcharts.chart(someVar, json);
